@@ -30,7 +30,7 @@ build-macos:
 
 .PHONY: run
 run: build
-	${JAVA_HOME}/bin/java --add-exports java.base/java.lang=ALL-UNNAMED --add-exports java.desktop/sun.awt=ALL-UNNAMED --add-exports java.desktop/sun.java2d=ALL-UNNAMED -jar target/sc-editor-${VERSION}.jar
+	${JAVA_HOME}/bin/java --add-exports java.base/java.lang=ALL-UNNAMED --add-exports java.desktop/sun.awt=ALL-UNNAMED --add-exports java.desktop/sun.java2d=ALL-UNNAMED -jar target/moddded-sc-editor.jar
 
 .PHONY: build
 build:
